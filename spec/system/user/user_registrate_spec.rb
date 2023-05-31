@@ -25,6 +25,8 @@ describe 'usuário se registrar no sistema' do
       click_on 'Entrar'
     end
 
+    click_on 'Inscrever-se'
+
     fill_in 'Nome', with: ''
     fill_in 'E-mail', with: 'joao@email.com'
     fill_in 'Senha', with: ''
